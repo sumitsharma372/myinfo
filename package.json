@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google-pay/button-react": "^3.0.9",
+    "autoprefixer": "10.4.14",
+    "body-parser": "^1.20.2",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.0",
+    "multer": "^1.4.5-lts.1",
+    "next": "13.4.3",
+    "next-auth": "^4.22.1",
+    "next-connect": "^1.0.0",
+    "postcss": "8.4.23",
+    "razorpay": "^2.8.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-file-base64": "^1.0.3",
+    "react-select": "^5.7.3",
+    "react-type-animation": "^3.0.1",
+    "shortid": "^2.2.16",
+    "tailwindcss": "3.3.2",
+    "typed.js": "^2.0.16"
+  }
+}

@@ -1,0 +1,16 @@
+<svg width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M101 1H1V101H101V1Z" fill="white"/>
+<g opacity="0.1">
+<path opacity="0.1" d="M101 98.6323V100.992H98.6402" stroke="#20263C" stroke-miterlimit="10"/>
+<path opacity="0.1" d="M94.1016 100.992H5.63307" stroke="#20263C" stroke-miterlimit="10" stroke-dasharray="5.77 5.77"/>
+<path opacity="0.1" d="M3.35979 100.992H1V98.6323" stroke="#20263C" stroke-miterlimit="10"/>
+<path opacity="0.1" d="M1 94.0937V5.62519" stroke="#20263C" stroke-miterlimit="10" stroke-dasharray="5.77 5.77"/>
+<path opacity="0.1" d="M1 3.35979V1H3.35979" stroke="#20263C" stroke-miterlimit="10"/>
+<path opacity="0.1" d="M7.89847 1H96.367" stroke="#20263C" stroke-miterlimit="10" stroke-dasharray="5.77 5.77"/>
+<path opacity="0.1" d="M98.6402 1H101V3.35979" stroke="#20263C" stroke-miterlimit="10"/>
+<path opacity="0.1" d="M101 7.89059V96.3669" stroke="#20263C" stroke-miterlimit="10" stroke-dasharray="5.77 5.77"/>
+</g>
+<path d="M34.037 74.9401L50.9534 63.8075L67.8607 74.9401L50.9534 23.0247L34.037 74.9401Z" fill="#414042"/>
+<path d="M42.6896 39.5432L23.8113 46.2169L38.6041 51.3422L42.6896 39.5432Z" fill="#414042"/>
+<path d="M78.0864 46.2169L59.2081 39.5432L63.2936 51.3422L78.0864 46.2169Z" fill="#414042"/>
+</svg>
