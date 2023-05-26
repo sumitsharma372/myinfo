@@ -13,7 +13,7 @@ const Profile = () => {
     const [updating, setUpdating] = useState(false)
     // console.log(session)
 
-    // if(!session){
+    // if (!session){
     //     router.push('/login')
     // }
 
@@ -36,7 +36,9 @@ const Profile = () => {
                 console.log(error);
             }
         }
-        if (session) getUser();
+        if (session) {
+            getUser();
+        }
     }, [session])
 
 

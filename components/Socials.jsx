@@ -21,7 +21,7 @@ const Socials = () => {
                 <li>
                     <Link href='https://github.com/sumitsharma372' target='_blank'>
                         <Image
-                            src='/assets/icons/github.svg'
+                            src='/assets/icons/github3.svg'
                             width = {60}
                             height = {60}
                             className='social_logo'
