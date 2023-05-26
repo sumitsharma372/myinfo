@@ -70,19 +70,21 @@ const Payment = () => {
         };
 
   return (
-    <div className='flex my-10 flex-col gap-3 mx-auto w-[95%] max-w-lg'>
-        <label>
-            <p className='text-center font-kanit text-2xl my-3'>Amount</p>
-            <input style={{color: 'white'}} autoFocus={true} type='number' min={0} className='form_input bg-secondary border-b-[2px] border-gray-50 outline-none font-poppins font-bold text-5xl text-gray-50 text-center'
-                value= {amount}
-                onChange={(e) => setAmount(e.target.value)}
-            />
-        </label>
-        <button className='p-2 bg-purple text-gray-50 w-[90%] rounded-md'
-            onClick={makePayment}
-        >
-            Pay Securey with Razorpay
-        </button>
+    <div className='flex justify-center my-10 gap-3 max-w-lg mx-auto'>
+        <div className='mx-auto w-[90%] flex flex-col justify-center'>
+            <label className='my-2 mx-auto flex flex-col items-center'>
+                <p className='text-center font-kanit text-2xl my-3'>Amount</p>
+                <input style={{color: 'white'}} autoFocus={true} type='number' min={0} className='form_input bg-secondary border-b-[2px] border-gray-50 outline-none font-poppins font-bold text-5xl text-gray-50 text-center mx-auto'
+                    value= {amount}
+                    onChange={(e) => setAmount(e.target.value)}
+                />
+            </label>
+            <button className='p-2 bg-purple text-gray-50 w-[90%] rounded-md my-2 mx-auto'
+                onClick={makePayment}
+            >
+                Pay Securey with Razorpay
+            </button>
+        </div>
     </div>
   )
 }

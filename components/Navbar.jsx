@@ -39,13 +39,13 @@ const Navbar = () => {
         <Link 
           href='/profile'
           type="button" 
-          class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" 
+          className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" 
           aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom"
         >
           <Image 
             width = {40} 
             height={40} 
-            class="rounded-full w-[44px] h-[44px]" 
+            className="rounded-full w-[44px] h-[44px]" 
             src={session?.user.image}
             alt="user photo" 
           />
