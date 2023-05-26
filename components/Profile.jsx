@@ -36,10 +36,10 @@ const Profile = () => {
                 console.log(error);
             }
         }
-        if (session) {
+        if (session?.user.id) {
             getUser();
         }
-    }, [session])
+    }, [session?.user.id])
 
 
     const handleUpdate = async () => {
@@ -78,7 +78,7 @@ const Profile = () => {
                     <label className="flex flex-col justify-center items-center mt-4 gap-2">
                         <div>
                             <p className="my-1">upload image</p>
-                        <FileBase64 type = 'file' multiple = {false} onDone = {({base64}) => setUserData({...userData, image: base64})}/>
+                            <FileBase64 type = 'file' multiple = {false} onDone = {({base64}) => setUserData({...userData, image: base64})}/>
                         </div>
                     </label>
                 }
