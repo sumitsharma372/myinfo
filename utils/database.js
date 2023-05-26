@@ -12,7 +12,7 @@ export const connectToDB = async () => {
     // console.log(uri);
 
     try {
-        await mongoose.connect('mongodb+srv://portfolioadmin:portfolioadmin123@cluster0.5qkjqhs.mongodb.net/?retryWrites=true&w=majority', {
+        await mongoose.connect(process.env.MONGOGDB_URI, {
             dbName: 'portfolio',
             useNewUrlParser: true,
             useUnifiedTopology: true,
