@@ -45,7 +45,7 @@ const Navbar = () => {
           <Image 
             width = {40} 
             height={40} 
-            className="rounded-full w-[44px] h-[44px]" 
+            className="rounded-full w-[44px] h-[44px] object-cover" 
             src={session?.user.image}
             alt="user photo" 
           />
