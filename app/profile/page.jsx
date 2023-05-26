@@ -11,9 +11,9 @@ const Profile = () => {
     const router = useRouter();
     // console.log(session)
 
-    // if(!session){
-    //     router.push('/login')
-    // }
+    if(!session){
+        router.push('/login')
+    }
 
     const [userData, setUserData] = useState({
         name: session?.user.name,
