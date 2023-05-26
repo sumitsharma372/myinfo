@@ -65,7 +65,7 @@ const Navbar = () => {
         </button>
       </div>
     ): (   
-        <Link href='/login' className="p-[6px] text-purple bg-secondary font-semibold rounded-md">
+        <Link href='/login' className="p-[8px] px-3 md:px-4 text-purple bg-secondary font-semibold rounded-md">
           Login
         </Link>
     )}

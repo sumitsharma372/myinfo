@@ -10,9 +10,9 @@ const RootLayout = ({ children }) => {
       <Head >
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
-        <body className='bg-primary no-scrollbar text-gray-100'>
+        <body className='bg-[url("/assets/background.jpg")] no-scrollbar text-gray-100'>
           <Provider>
-            <main className='w-full h-screen bg-primary'>
+            <main className='w-full h-screen bg-[url("/assets/background.jpg")]'>
                 <Navbar/>
                 {children}
             </main>
